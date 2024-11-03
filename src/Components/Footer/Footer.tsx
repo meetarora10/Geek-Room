@@ -6,14 +6,14 @@ import GeekRoomLogo from '../../../public/Images/GeekRoomLogo.svg';
 import Instagram from '../../../public/Images/Instagram.svg';
 import Linkedin from '../../../public/Images/Linkedin.svg';
 import Twiiter from '../../../public/Images/Twitter.svg';
-
+import Geek2 from "../../../public/Images/Transparent logo.png";
 
 const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
         <div className={styles.logoSection}>
-          <Image src={GeekRoomLogo} alt="Footer Logo" width={120} height={120} />
+          <Image src={Geek2} alt="Footer Logo" width={120} height={120} />
           <p className={styles.tagline}>LEARN. CONNECT. GROW.</p>
         </div>
         <div className={styles.linksSection}>
